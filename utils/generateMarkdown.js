@@ -7,13 +7,13 @@ function renderLicenseBadge(license) {
   if (license == "None") {
     return '';
   } else if (license == "MIT") {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    return `# [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } else if (license == "Apache 2.0") {
-    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+    return `# [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   } else if (license == "GNU GPL 3.0") {
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+    return `# [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
   } else {
-    return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
+    return `# [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
   }
 }
 
@@ -84,12 +84,16 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
-*[Description](#description)
-*[Installation](#installation)
-*[Usage Tips](#usage-tips)
-*[Contribution](#contribution)
-*[Testing](#testing)
-*[Contact](#contact)
+-[Description](#description)
+-[Installation](#installation)
+-[Usage Tips](#usage-tips)
+-[Contribution](#contribution)
+-[Testing](#testing)
+-[Contact](#contact)
+
+## Description
+
+${data.description}
 
 ## Installation
 
@@ -97,7 +101,7 @@ ${data.installation}
 
 ## Usage Tips
 
-${data.usage}
+${data.tips}
 
 ## Contribution
 
@@ -109,7 +113,7 @@ ${data.testing}
 
 ## Contact
 
-${["Github"](data.github)}
+Github: [${data.github}](https://github.com/${data.github})
 
 Email: ${data.email}
 
