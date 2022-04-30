@@ -39,7 +39,6 @@ const questions = [
             "MIT",
             "Apache 2.0",
             "GNU GPL 3.0",
-            "Creative Commons Zero v1.0 Universal",
             "The Unlicense"
         ],
     },
@@ -56,8 +55,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFileSync(fileName, data)
+function writeToFile(data) {
+    return fs.writeFileSync('./output/README.md', data)
     // fs.writeFileSync('./output/README.md', data)
 }
 
