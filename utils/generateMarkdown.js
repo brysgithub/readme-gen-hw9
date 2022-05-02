@@ -84,12 +84,12 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
--[Description](#description)
--[Installation](#installation)
--[Usage Tips](#usage-tips)
--[Contribution](#contribution)
--[Testing](#testing)
--[Contact](#contact)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage Tips](#usage-tips)
+- [Contribution](#contribution)
+- [Testing](#testing)
+- [Contact](#contact)
 
 ## Description
 
