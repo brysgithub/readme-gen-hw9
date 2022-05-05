@@ -1,4 +1,4 @@
-# Readme generator
+# Readme Generator
 
 ## License
 
@@ -17,14 +17,16 @@
 
 ## Table of Contents
 
--[Description](#description)
--[Installation](#installation)
--[Usage Tips](#usage-tips)
--[Contribution](#contribution)
--[Testing](#testing)
--[Contact](#contact)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage Tips](#usage-tips)
+- [Contribution](#contribution)
+- [Testing](#testing)
+- [Contact](#contact)
 
 ## Description
+
+[Demonstration Video](https://drive.google.com/file/d/1ww-UMe1zbP7kxhGmp8tZJs-Rsi6trUYY/view)
 
 This program generates a nicely formatted readme from CLI input!
 
@@ -48,5 +50,5 @@ none
 
 Github: [brysgithub](https://github.com/brysgithub)
 
-Email: email
+Email: no
 
